@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body class="body" id="the-body">
+
+          <div id="render-here">
+            
+              <div class="container-fluid">
+                <div class="text-center jumbotron" style="margin-bottom: 50px">
+                    Hello World
+                  </div>
+                <button type="button" class="btn btn-primary" onclick="play('audio')">Cena #1</button>
+                <button type="button" class="btn btn-primary" onclick="play('audio2')">Cena #2</button>
+                <button type="button" class="btn btn-primary" onclick="play('audio3')">Cena #3</button>
+                <button type="button" class="btn btn-primary" onclick="play('audio4')">Cena #4</button>
+                
+                <script>
+                  function play(sound){
+                       var audio = document.getElementById(sound);
+                       audio.play();
+                                 }
+                </script>
+                  
+                <audio id="audio" src="./audio/JOHNCENA.wav" ></audio>
+                <audio id="audio2" src="./audio/main.wav" ></audio>
+                <audio id="audio3" src="./audio/main2.wav" ></audio>
+                <audio id="audio4" src="./audio/stoke.wav" ></audio>
+              </div>
+            
+    
+    
+    
+    
+          </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/1.1.1/js/md5.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
+<!--  <script src="./static/bundle.js"></script>-->
+</body>
+</html>
